@@ -88,8 +88,8 @@ void showFilterOptions(
                 for (int i = 0; i < brandNames.length; i++) {
                   if (brandNames[i].isSelected) {
                     final name = brandNames[i].brandName;
-                    // DOESN'T ADDS COMMAS ON LAST INDEX OF TRAY NAMES AND SINGLE NAME DOESN'T HAVE COMMA
-                    // COMMAS ARE ADDED IN CASE OF MULTIPLE TRAY NAMES
+                    // DOESN'T ADDS COMMAS ON LAST INDEX OF BRAND NAMES AND SINGLE NAME DOESN'T HAVE COMMA
+                    // COMMAS ARE ADDED IN CASE OF MULTIPLE BRAND NAMES
                     if (i == brandNames.length - 1) {
                       // Last index [No Comma] (Also works if list has only 1 item)
                       brands += "$name";
