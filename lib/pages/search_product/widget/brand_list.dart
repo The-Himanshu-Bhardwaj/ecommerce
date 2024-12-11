@@ -14,6 +14,7 @@ class BrandList extends StatelessWidget {
 
     final provider = context.watch<ProductsProvider>();
     final brandList = provider.allBrands;
+
     return GridView.builder(
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,

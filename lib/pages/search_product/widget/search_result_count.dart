@@ -16,7 +16,6 @@ class SearchResultCount extends StatelessWidget {
             "$count results for '$searchQuery'"
         );
         },
-
     );
   }
 }

@@ -104,7 +104,6 @@ class _SearchProductPageState extends State<SearchProductPage> {
                     showFilterOptions(context, _minPriceController, _maxPriceController, _minRatingController);
                   },
                 ),
-
                 const SearchResultCount(),
                 ProductsGrid(list: provider.productList),
 

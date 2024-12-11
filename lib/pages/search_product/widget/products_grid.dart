@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../../util/get_null_safe_data.dart';
 import '../model/products_response_model.dart';
 import 'product_widget.dart';

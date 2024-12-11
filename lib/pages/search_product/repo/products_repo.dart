@@ -28,9 +28,6 @@ class ProductsRepo {
         return http.Response('Error', 408);
       });
 
-      debugPrint(url.toString());
-
-
       // WHEN RESPONSE BODY IS BLANK
       if (response.body.isEmpty) {
         throw Exception(EMPTY_RESPONSE_MESSAGE);
@@ -54,7 +51,6 @@ class ProductsRepo {
       }
     }
 
-    /// EXCEPTION
     catch (e) {
       throw Exception(e.toString());
     }

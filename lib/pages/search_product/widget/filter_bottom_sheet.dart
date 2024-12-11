@@ -52,6 +52,7 @@ void showFilterOptions(
           const Expanded(child: BrandList()),
           ApplyFilterButton(
             onTap: () {
+
               final minimumPrice = minPriceController.text;
               final maximumPrice = maxPriceController.text;
               final minimumRating = minRatingController.text;
@@ -69,7 +70,6 @@ void showFilterOptions(
                 int maxPrice = int.tryParse(maximumPrice) ?? 0;
                 provider.setMaxPrice(maxPrice);
               }
-
 
               if (minimumRating.isEmpty) {
                 provider.setMinRating(null);
