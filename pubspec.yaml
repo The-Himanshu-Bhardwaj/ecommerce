@@ -1,0 +1,50 @@
+name: ecommerce
+description: "An e-commerce page design"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  http:
+  provider:
+  fluttertoast:
+  lottie:
+  custom_rating_bar: ^3.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  font_awesome_flutter:
+  get:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # ASSETS
+  assets:
+    - assets/anims/
+    - assets/images/
+
+  # SANS FONT
+  fonts:
+    - family: Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-Medium.ttf
+
+    - family: SansBold
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+
